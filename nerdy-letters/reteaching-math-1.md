@@ -26,7 +26,7 @@ I decided to write this without outside references. I wanted
 to ground this on my pure understanding and visualization of how I would reason about the world if I was starting
 from scratch. Of course, for brevity sake, I do not prove every single claim since they are simple enough to relate to.
 
-One important concept that I would reteach in my secondary school if I had the change was calculus. Derivatives, integrals, and everything in between. Let's talk about $\frac{dy}{dx}$.
+One important concept that I would reteach in my secondary school if I had the change was calculus. Derivatives, integrals, and everything in between. Let's talk about $$\frac{dy}{dx}$$.
 
 ## Understanding dy/dx
 
