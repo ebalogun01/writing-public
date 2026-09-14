@@ -1,0 +1,41 @@
+<!-- MathJax v3: kramdown's default math_engine emits \( \) inline and \[ \] display. -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      ignoreHtmlClass: 'highlight'
+    }
+  };
+</script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js">
+</script>
+
+<style>
+  /* Keep long display equations from blowing out the page on mobile. */
+  mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.2em 0;
+  }
+  figure {
+    margin: 1.5rem 0;
+  }
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  figcaption {
+    font-size: 0.85em;
+    color: #5c5962;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+</style>

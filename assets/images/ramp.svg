@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" role="img" aria-labelledby="ramp-title">
+  <title id="ramp-title">A block resting at the top of a ramp, with height y, horizontal run x, and sloped length s</title>
+  <style>
+    .ink   { stroke: #27262b; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .dim   { stroke: #7253ed; fill: none; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .solid-dim { stroke: #7253ed; fill: none; stroke-width: 1.5; }
+    .ground { stroke: #959396; stroke-width: 2; }
+    .hatch { stroke: #959396; stroke-width: 1.2; }
+    .block { fill: #ffeff5; stroke: #27262b; stroke-width: 2; }
+    .lbl   { font: 500 16px ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #27262b; }
+    .lbl-a { font: italic 600 19px ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #7253ed; }
+    .lbl-m { font: 500 14px ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #6e6b71; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#27262b" />
+    </marker>
+  </defs>
+
+  <!-- ramp triangle: apex top-left (86,60), base (86,240) to (466,240) -->
+  <path class="ink" d="M 86 240 L 86 60 L 466 240 Z" fill="#f5f6fa" />
+
+  <!-- ground -->
+  <line class="ground" x1="40" y1="240" x2="524" y2="240" />
+  <g class="hatch">
+    <line x1="52"  y1="240" x2="40"  y2="252" />
+    <line x1="92"  y1="240" x2="80"  y2="252" />
+    <line x1="132" y1="240" x2="120" y2="252" />
+    <line x1="172" y1="240" x2="160" y2="252" />
+    <line x1="212" y1="240" x2="200" y2="252" />
+    <line x1="252" y1="240" x2="240" y2="252" />
+    <line x1="292" y1="240" x2="280" y2="252" />
+    <line x1="332" y1="240" x2="320" y2="252" />
+    <line x1="372" y1="240" x2="360" y2="252" />
+    <line x1="412" y1="240" x2="400" y2="252" />
+    <line x1="452" y1="240" x2="440" y2="252" />
+    <line x1="492" y1="240" x2="480" y2="252" />
+  </g>
+
+  <!-- right-angle marker -->
+  <path class="ink" d="M 86 222 L 104 222 L 104 240" stroke-width="1.5" />
+
+  <!-- block on the slope -->
+  <g transform="translate(123 96) rotate(25.3)">
+    <rect class="block" x="-24" y="-24" width="48" height="42" rx="3" />
+  </g>
+
+  <!-- slide direction -->
+  <line class="ink" x1="196" y1="146" x2="276" y2="184" marker-end="url(#arrow)" />
+
+  <!-- height y -->
+  <line class="solid-dim" x1="58" y1="60" x2="58" y2="240" />
+  <line class="dim" x1="58" y1="60"  x2="86" y2="60" />
+  <line class="dim" x1="58" y1="240" x2="86" y2="240" />
+  <text class="lbl-a" x="34" y="156">y</text>
+
+  <!-- sloped length s -->
+  <line class="solid-dim" x1="104" y1="46" x2="484" y2="226" />
+  <line class="dim" x1="86"  y1="60"  x2="104" y2="46" />
+  <line class="dim" x1="466" y1="240" x2="484" y2="226" />
+  <text class="lbl-a" x="300" y="112">s</text>
+
+  <!-- horizontal run x -->
+  <line class="solid-dim" x1="86" y1="272" x2="466" y2="272" />
+  <line class="dim" x1="86"  y1="240" x2="86"  y2="272" />
+  <line class="dim" x1="466" y1="240" x2="466" y2="272" />
+  <text class="lbl-a" x="270" y="292">x</text>
+
+</svg>
