@@ -22,9 +22,11 @@ Luckily for me, I was decent at recognizing patterns and thinking my way through
 problems (similar to my strategy playing style of chess), but there is another
 level which is more intuitive that comes from a place of deep understanding.
 
-I decided to write this completely without any outside reference or use of any
-tools, just pure understanding and visualization of how I've come to describe
-the world.
+I decided to write this without outside references. I wanted
+to ground this on my pure understanding and visualization of how I would reason about the world if I was starting
+from scratch. Of course, for brevity sake, I do not prove every single claim since they are simple enough to relate to.
+
+One important concept that I would reteach in my secondary school if I had the change was calculus. Derivatives, integrals, and everything in between. Let's talk about $\frac{dy}{dx}$.
 
 ## Understanding dy/dx
 
