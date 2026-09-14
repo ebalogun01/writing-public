@@ -31,7 +31,7 @@ One important concept that I would reteach in my secondary school if I had the c
 ## Understanding dy/dx
 
 Bro, I remember I was introduced to calculus at 14 years old and I was like
-"what the hell is \\(dy/dx\\)." I had resumed a bit later that year, so the class
+"what the hell is \\(dy/dx\\)" I had resumed a bit later that year, so the class
 had two weeks and I was playing catchup on an entirely new concept. I figured
 for most basic polynomial functions, the rules underpinning \\(dy/dx\\) (formally
 known as derivatives or differentiation) were straightforward to recall from
@@ -70,12 +70,19 @@ Okay, let's call it a platform then. If the platform was flat, and we sat on it,
 we would remain in the same position, similar to what happens to the block as
 well.
 
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/platform.svg"
+       alt="A gray block sitting on a flat platform. A rightward arrow is marked with a red X; a downward arrow is marked YES.">
+  <figcaption>Ignoring additional forces, this block will remain at "rest" due to the
+direction of the only force we know exerted on it (gravity).</figcaption>
+</figure>
+
 So if this is the case there must be something that pulls the object downwards
 (as we experience it) but not sideways. And that thing is pulling with the same
 amount of exertion (Force). I try not to say force so we don't have to define
 that yet.
 
-Now \\(dy/dx\\) simply addresses the Q: "***for tiny change in x, how does y
+Now \\(dy/dx\\) simply addresses the question: "***for tiny change in x, how does y
 change?***" This is obvious because of the shape of the ramp; to go down, we must
 go right and vice-versa. We know something forces us to go down. *What goes up
 must come down*. Thus, for free when we go down (which we must), we go right as
@@ -84,7 +91,7 @@ well. The relationship between the change in y (coming down) and the change in x
 time. Our perception of slow or fast is dependent on how we traverse a different
 dimension.
 
-Let us introduce another dimension, the **time dimension.** From experiments,
+That dimension is the **time dimension.** From experiments,
 scientists (I think Newton?) have measured that on earth all objects with mass
 (when ignoring drag and every other resistive force) accelerates at about
 9.8m/s^2. Meaning any object dropped from a height is constantly increasing its
@@ -99,7 +106,8 @@ $$
 But now, because the object is sliding, not free-falling, we lose some
 acceleration due to the sliding, which depends on \\(dy/dx\\), which directly
 measures the slope, which is equivalent to the tangent of the angle the ramp
-makes with the horizontal ground.
+makes with the horizontal ground (note the inventors of trigonometry probably
+defined it this way but I am not privvy to the history).
 
 $$
 \frac{dy}{dx} = \tan(\theta) \quad \text{(in this case we can just say } y/x\text{)}
@@ -109,13 +117,13 @@ So to resolve the component pulling the block down to a component sliding
 diagonally down, we use the ratio of the height (\\(y\\)) and the length of the
 ramp (we will call this \\(s\\)).
 
-Thus
+Thus:
 
 $$
 \frac{a}{s} = \frac{y}{s}\,9.81 = \frac{y}{\sqrt{y^2 + x^2}}\,9.81
 $$
 
-If you think of it, it is intuitive, we all perceive that something makes all objects fall to the ground. It is one of the reasons reason we walk, not fly. Note, for the block to slide down, it has to traverse the x axis as well, so some of that force pulling it down is also used in creating the horizontal travel. As a result, the block will not move as quickly (or accelerate) as it would if it were a free fall in only the y direction. Notice in the equation below as x approaches 0, we recover the full 9.81 acceleration caused by said force pulling all objects on earth down (a.k.a Gravity). 
+If you think of it, it is intuitive. We all perceive that something makes all objects fall to the ground. It is one of the reasons reason we walk, not fly. Note, for the block to slide down, it has to traverse the x axis as well, so some of that force pulling it down is also used in creating the horizontal travel. As a result, the block will not move as quickly (or accelerate) as it would if it were a free fall in only the y direction. Notice in the equation below as x approaches 0, we recover the full 9.81 acceleration caused by said force pulling all objects on earth down (a.k.a Gravity). 
 
 $$
 dv = \frac{y}{s}\,9.81\;dt
@@ -149,8 +157,8 @@ It grows at the rate \\(v\\), and \\(v\\) is not constant, it is climbing the
 whole way.
 
 So let us reason about it like this. If we had travelled at our *final* speed
-\\(a\,t\\) for the whole trip, the distance would just be that speed times the
-time:
+\\(a\\) (acceleration due to gravity) times \\(t\\) (time) for the whole trip, the
+distance would just be that speed times the time:
 
 $$
 s = (a\,t)\,t = a\,t^2
@@ -172,7 +180,9 @@ That is the picture above. Speed against time is a straight line, the distance w
 cover is the area underneath it, and the area under a straight line rising from
 zero is a triangle — half the base times the height. The rectangle around it is
 the trip we did not take, the one where we moved at the final speed the whole
-way.
+way. Notice that this result matches exactly the integral of the expression
+above, derived without using the "rules" we were handed when we were initially
+introduced to calculus? Pure observation.
 
 So we end up with \\(s\\) (distance travelled), if initial distance is 0.
 
@@ -194,11 +204,15 @@ t = \sqrt{\frac{s^2}{4.9\,y}} = s\sqrt{\frac{1}{4.9\,y}}
 \quad \text{or} \quad \sqrt{\frac{y^2 + x^2}{4.9\,y}}
 $$
 
-To me, this is beautiful, don't you think? The travel time only depends on some distance \\(s\\), which
-is the length of the ramp we built (thus prescribed) and the height of the ramp (or the slope). This allows
-us to build things with some level of certainty about the outcome. For example, we can decide the maximum speed we
-want kids (or adults, we like to play too!) to safely go down a water slide and the time from start to finish by fiddling with the slopes (height to length ratio) of the slides. All these ratios connect precisely to trigonometry,
-but I delay treatment for now.
+This is beautiful, don't you think?
+
+The travel time only depends on some distance \\(s\\), which is the length of the
+ramp we built (thus prescribed) and the height of the ramp (or the slope). This
+allows us to build things with some level of certainty about the outcome. For
+example, we can decide the maximum speed we want kids (or adults, we like to play
+too!) to safely go down a water slide and the time from start to finish by
+fiddling with the slopes (height to length ratio) of the slides. All these ratios
+connect precisely to trigonometry, but I delay treatment for now.
 
 The world has prescribed constraints and boundaries we work with and mathematics
 gives us a language to express those boundaries, and physics ponders about the

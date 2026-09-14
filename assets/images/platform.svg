@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" width="560" height="180" role="img" aria-labelledby="platform-title">
+  <title id="platform-title">A block on a flat platform: no sideways motion, only a downward pull</title>
+  <style>
+    .ink    { stroke: #27262b; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .block  { fill: #9a9a9a; stroke: #27262b; stroke-width: 2; }
+    .plat   { fill: #d07a6e; stroke: #27262b; stroke-width: 2; }
+    .no     { font: 700 18px ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #e03131; }
+    .yes    { font: 700 16px ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #2f9e44; }
+  </style>
+  <defs>
+    <marker id="plat-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#27262b" />
+    </marker>
+  </defs>
+
+  <!-- block -->
+  <rect class="block" x="36" y="18" width="52" height="52" rx="2" />
+
+  <!-- platform -->
+  <rect class="plat" x="20" y="78" width="520" height="36" rx="1" />
+
+  <!-- no sideways motion -->
+  <line class="ink" x1="104" y1="44" x2="210" y2="44" marker-end="url(#plat-arrow)" />
+  <text class="no" x="142" y="40">X</text>
+
+  <!-- downward pull -->
+  <line class="ink" x1="62" y1="70" x2="62" y2="148" marker-end="url(#plat-arrow)" />
+  <text class="yes" x="8" y="128">YES</text>
+</svg>
