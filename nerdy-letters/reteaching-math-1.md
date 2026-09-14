@@ -113,6 +113,8 @@ $$
 \frac{a}{s} = \frac{y}{s}\,9.81 = \frac{y}{\sqrt{y^2 + x^2}}\,9.81
 $$
 
+If you think of it, it is intuitive, we all perceive that something makes all objects fall to the ground. It is one of the reasons reason we walk, not fly. Note, for the block to slide down, it has to traverse the x axis as well, so some of that force pulling it down is also used in creating the horizontal travel. As a result, the block will not move as quickly (or accelerate) as it would if it were a free fall in only the y direction. Notice in the equation below as x approaches 0, we recover the full 9.81 acceleration caused by said force pulling all objects on earth down (a.k.a Gravity). 
+
 $$
 dv = \frac{y}{s}\,9.81\;dt
 $$
@@ -190,7 +192,7 @@ t = \sqrt{\frac{s^2}{4.9\,y}} = s\sqrt{\frac{1}{4.9\,y}}
 \quad \text{or} \quad \sqrt{\frac{y^2 + x^2}{4.9\,y}}
 $$
 
-Wow! Isn't this beautiful? The time only depends on some distance \\(s\\), which
+To me, this is beautiful, don't you think? The time only depends on some distance \\(s\\), which
 is the length of the ramp we built and the height of the ramp (or the slope).
 
 The world has prescribed constraints and boundaries we work with and mathematics
