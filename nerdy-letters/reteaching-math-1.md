@@ -192,8 +192,11 @@ t = \sqrt{\frac{s^2}{4.9\,y}} = s\sqrt{\frac{1}{4.9\,y}}
 \quad \text{or} \quad \sqrt{\frac{y^2 + x^2}{4.9\,y}}
 $$
 
-To me, this is beautiful, don't you think? The time only depends on some distance \\(s\\), which
-is the length of the ramp we built and the height of the ramp (or the slope).
+To me, this is beautiful, don't you think? The travel time only depends on some distance \\(s\\), which
+is the length of the ramp we built (thus prescribed) and the height of the ramp (or the slope). This allows
+us to build things with some level of certainty about the outcome. For example, we can decide the maximum speed we
+want kids (or adults, we like to play too!) to safely go down a water slide and the time from start to finish by fiddling with the slopes (height to length ratio) of the slides. All these ratios connect precisely to trigonometry,
+but I delay treatment for now.
 
 The world has prescribed constraints and boundaries we work with and mathematics
 gives us a language to express those boundaries, and physics ponders about the
