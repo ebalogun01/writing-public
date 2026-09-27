@@ -24,7 +24,7 @@ The boiling point of a fluid is the temperature at which the fluid begins to tra
 
 Now you might be thinking: "why the hell is boiling water so important?" Okay, let's talk about it, and connect it to the science of cooking Nigeria's most popular dish export--Jollof Rice. 
 
-## How to cook Jollof Rice
+## Cooking Jollof Rice
 Some of us have seen popular YouTube videos and TikToks, giving people tips for how to cook jollof quickly and conveniently. Honestly, I think it is cray these days how so much content is to "optimize." Reduce the time spent cooking jollof. Reduce your time eating. Code faster. Build faster. Bro, tell us how to reduce our time spent on these apps!! 
 
 Anyway, back to jollof. For those that don't know, Jollof is a popular Nigerian (West African) dish that uses tomatoes, red bell peppers, scotch bonnets, onions, garlic, ginger, to create a savory and aromatic rice dish. 
