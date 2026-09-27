@@ -11,10 +11,12 @@ figure out what I actually understand, as opposed to what I can recall.
 
 ## Nerdy Letters
 
-A series on reteaching the math I was taught badly the first time. Written from
-scratch, no references, no tools — just the picture I carry in my head.
+A series on everyday life into math and science. Each letter rebuilds one concept
+from something you already believe about the world — written with extremely
+minimal reference or tools.
 
 - [Reteaching math pt. 1 — Understanding dy/dx]({{ site.baseurl }}/nerdy-letters/reteaching-math-1/)
+- [The Science and Art of Cooking]({{ site.baseurl }}/nerdy-letters/science-of-cooking/)
 
 ---
 
