@@ -10,6 +10,12 @@ description: "Science of Cooking"
 
 # Science of Cooking
 
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/nigerian-jollof-rice-8.jpg"
+       alt="A plate of Nigerian jollof rice.">
+  <figcaption>The respect of Nigerian Jollof is the beginning of wisdom — Pete Edochie</figcaption>
+</figure>
+
 Excuse my digression. It is Sunday again, and I am in a cafe, wondering how people come here to get homework done. Don't get me wrong, I myself am in the same cafe, writing this article. I think distraction breeds creativity, if one has the consciousness to channel it the right way. 
 
 Anyone who knows me knows I like to cook, maybe love, not sure yet. I realize my love for cooking is not because I love or like food, but rather, I am in love with creation of all forms. I just want to make things and go from idea into reality and doing that in all forms. I also know some people who simply like to consume and it is so interesting how society has evolved to reward creation a lot more than consumption--interesting isn't it? Let's save the deconstruction of this for another series. Okay E, back to cooking. 
